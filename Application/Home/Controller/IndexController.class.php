@@ -1,9 +1,15 @@
 <?php
+
 namespace Home\Controller;
 use Think\Controller;
+
 class IndexController extends Controller {
     public function index(){
-		
+
+		$armodel = D('Article');
+//		$armodel = new \Home\Model\ArticleModel();
+
+		var_dump($armodel->GetArticlesByType('program',1,10));
 		$this->assign('name',"ChenJunfa");
 		$this->display();
 		
