@@ -54,7 +54,7 @@ CREATE  TABLE `article_share` (
   `share_time` BIGINT NOT NULL DEFAULT 0 ,
   PRIMARY KEY (`share_id`) );
 
-CREATE  TABLE `blog`.`user` (
+CREATE  TABLE `user` (
   `user_id` BIGINT NOT NULL AUTO_INCREMENT ,
   `user_name` VARCHAR(255) NOT NULL DEFAULT '' ,
   `user_account` VARCHAR(255) NOT NULL DEFAULT '' ,

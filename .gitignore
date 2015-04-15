@@ -43,3 +43,4 @@ Temporary Items
 .apdisk
 *.log
 Application/Runtime/Logs/Home/15_04_13.log
+*.log
